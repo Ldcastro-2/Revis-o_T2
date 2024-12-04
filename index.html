@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Revisão T2</title>
+</head>
+<body>
+    <header>
+        <h2>PortoLogística</h2>
+    
+<nav>
+    <ul>
+        <li> <a href="#" target="_blank"> Home </a></li>
+        <li> <a href="#" target="_blank"> Mais</a></li>
+        <li> <a href="#" target="_blank"> Sobre </a></li>
+        <li> <a href="#" target="_blank"> Serviços </a></li>
+        <li> <a href="#" target="_blank"> Contatos </a></li>
+    </ul>
+</nav>
+</header>
+
+<main>
+    <form > <!--moldura que guarda o formulário// tudo que for voltado para o formulário vai na tag form-->
+        <fieldset>
+            <legend>Cadastro</legend> <!--ela descreve o fieldset-->
+        
+
+<div> <!--tag não sematica, utilizada apenas para pequenas divisões quando não se tem uma tag semantica para isso-->
+    <label for="">Nome</label> <!--Lebel é a etiqueta para que o imput serve-->
+    <input type="text" name="Nome" id="nome" placeholder="Digite seu nome"/> <!--è um campo para digitação; o type é o tipo desse imput; name é o nome dado para aquele input(mesmo da identificação);
+    id é como se fose identidade/cpf do input-->
+</div>
+
+<div>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="emai" placeholder="Digite seu email"/>
+</div>
+
+<div>
+    <label for="telefone">Telefone</label>
+    <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone"/>
+</div>
+
+<div>
+    <label for="mensagem">Mensagem</label>
+    <input type="text" name="mensagem" id="mensagem"/>
+</div>
+<!--button do type submit é para enviar na informações preenchidas no formulário-->
+<button type:"submit">Enviar</button>
+</fieldset>
+
+</form>
+</main>
+</body>
+</html>
